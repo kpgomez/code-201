@@ -26,9 +26,9 @@ let school = prompt("Did I graduate high school in the early 2000s? \nPlease ans
 console.log(school);
 
 if(school === 'yes' || school === 'y'){
-    alert('You are correct! \nMy 20 year high school reunion is at the end of this year.');
+    alert('Do I really look that old? You are right though as 2023 is the year of my 20 year high school reunion.');
 } else if(school === 'no' || school === 'n'){
-    alert('You are so kind but my 20 year high school reunion is at the end of this year. But watch out world because I still have so much more to offer!');
+    alert('You are sweet, but I am quite old.');
 } else{
     alert("Please remember to answer as 'yes' or 'no'.");
 };
@@ -40,7 +40,7 @@ console.log(job);
 if(job === 'yes' || job === 'y'){
     alert('I wish! \nMy first job was in a chicken joint when I was 15. \nI was the cashier/dishwasher/cook/floor mopper/window washer for 5.15 per hour. It was the longest 3 weeks of my life!');
 } else if(job === 'no' || job === 'n'){
-    alert('You are correct. My first job was in the fast-food industry.');
+    alert('How did you know? My first job was selling chicken fingers.');
 } else{
     alert("Please remember to answer as 'yes' or 'no'.");
 };
@@ -49,11 +49,22 @@ let dress = prompt('Do I prefer comfort over style?').toLowerCase();
 console.log(dress);
 
 if(dress === 'yes' || dress === 'y'){
-    alert('Woohoo to hoodies and sweats all day long!');
+    alert('Woohoo to hoodies and sweats all day every day of the week!');
 } else if(dress === 'no' || dress === 'n') {
     alert('My personal style can be very hobo-ish if you know what I mean.');
 } else{
     alert("Please remember to answer as 'yes' or 'no'.")
+};
+
+let thrift = prompt('Can I spend all day thrifting?').toLowerCase();
+console.log(thrift);
+
+if(thrift === 'yes' || thrift === 'y'){
+    alert('I love to BARGAIN shop!! My favorite finds include a real jade bangle, a 1980s vintage designer gown, and a 2005 edition of the World of Warcraft board game.');
+} else if(thrift === 'no' || thrift === 'n') {
+    alert('Thrift stores are amazing, and it is a great way to reduce your carbon footprint.');
+} else{
+    alert("Please remember to answer as 'yes' or 'no'.");
 };
 
 let son = prompt('Did I name my son after a video game?').toLowerCase();
@@ -61,22 +72,11 @@ console.log(son);
 
 
 if(son === 'yes' || son === 'y'){
-    alert('I totally did! I sure he does not resent me for that when he gets older.');
+    alert('I totally did! His middle name was inspired by a character from Street Fighter.');
 } else if(son === 'no' || son === 'n'){
-    alert('You are correct. His middle name was inspired by a character from Street Fighter .');
+    alert('Oh man, I sure hope he does not resent me for that when he gets older.');
 } else{
     alert("Please remember to answer as 'yes' or 'no'.");
 };
 
-let thrift = prompt('Do I like spending all day in a thrift store?').toLowerCase();
-console.log(thrift);
-
-if(thrift === 'yes' || thrift === 'y'){
-    alert('Yes! I love to BARGAIN shop at the thrift stores!! My favorite finds include a real jade bangle, a 1980s vintage designer gown, and a 2005 edition of the World of Warcraft board game.');
-} else if(thrift === 'no' || thrift === 'n') {
-    alert('You are partially right. I can do maybe an an hour in the mall, but I can spend all day in the thrift stores!');
-} else{
-    alert("Please remember to answer as 'yes' or 'no'.");
-};
-
-let finalMessage = alert('Thank you ' + visitorName + ' for visiting my site and completing the quiz! I hope you learned some fun things about me.');
+let finalMessage = alert('Thank you ' + visitorName + ' for visiting my site. I hope you learned some fun things about me.');
