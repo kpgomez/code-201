@@ -18,7 +18,7 @@ Added
 - Top Ten List
 
 
-### Author: Kiengchay Gomez
+### Author: Kiengchay Gomez (navigator) & Jelani Rhinehart (driver)
 
 ### Links and Resources
 
