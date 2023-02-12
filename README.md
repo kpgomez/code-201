@@ -6,25 +6,30 @@ Changed
 - Moved the script src to below the footer
 - Replaced double quotes with single except instances that had quotes within string
 - Fixed some file paths. It was missing the initial .
-- Added .toLowerCase() to prompts instead of creating new variables
+- Applied .toLowerCase() method directly to prompts instead of creating new variables
 - Reordered some questions
-- shortened variable names
+- Shortened variable names
+- Renamed about-me.html to index.html
+- Changed education and experience to bullets
 
-Added
-Removed
+Added 
+- Some CSS styling
+- Question 6 & 7
+- Top Ten List
+
 
 ### Author: Kiengchay Gomez
 
 ### Links and Resources
 
 * [submission PR](http://xyz.com)
-* Any Links you used as reference
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 ### Lighthouse Accessibility Report Score
 
 * Provide a screenshot of your score after running a Lighthouse Accessibility report.
 
-![Lighthouse Report Score](./img/Screenshot%202023-02-08%20at%2011.27.00%20PM.png)
+![Lighthouse Report Score](./img/Screenshot%202023-02-12%20at%2012.29.49%20AM.png)
 
 ### Reflections and Comments
 
