@@ -1,8 +1,17 @@
-# LAB - 2
+# LAB - 3
 
 ## about-me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+Changed 
+- Moved the script src to below the footer
+- Replaced double quotes with single except instances that had quotes within string
+- Fixed some file paths. It was missing the initial .
+- Added .toLowerCase() to prompts instead of creating new variables
+- Reordered some questions
+- shortened variable names
+
+Added
+Removed
 
 ### Author: Kiengchay Gomez
 
