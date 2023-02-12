@@ -5,10 +5,10 @@ let visitorName = prompt('Please enter your name.');
 console.log(visitorName);
 
 let message = alert('Welcome ' + visitorName + "!");
-//let message = alert('Welcome ${visitorName}!'); template literal did not work
+//let message = alert('Welcome ${visitorName}!'); template literal did not work for me
 console.log(message); //shows as "undefined" in console
-//let newMessage = document.write("Let's play a game!");
-//console.log(newMessage); //shows as "undefined" in console
+let newMessage = document.write("Let's play a game!");
+console.log(newMessage); //shows as "undefined" in console
 
 
 let start = confirm('Are you ready for a short quiz?');
@@ -70,13 +70,81 @@ if(thrift === 'yes' || thrift === 'y'){
 let son = prompt('Did I name my son after a video game?').toLowerCase();
 console.log(son);
 
-
 if(son === 'yes' || son === 'y'){
     alert('I totally did! His middle name was inspired by a character from Street Fighter.');
 } else if(son === 'no' || son === 'n'){
-    alert('Oh man, I sure hope he does not resent me for that when he gets older.');
+    alert('Oh man, I sure hope he does not resent me for naming him after a made-up character when he gets older.');
 } else{
     alert("Please remember to answer as 'yes' or 'no'.");
 };
+
+
+let miles = 147;
+let guess = prompt('Guess how many miles I am from the nearest asian market I frequent every month.');
+
+for(let i = 0; i < 4; i++){
+    if(guess < miles){
+        let guess = prompt('Go higher');
+    } else if(guess > miles){
+        let guess = prompt('Go lower.');
+    } else{
+        alert('That is a really good guess');
+        break;
+    }
+};
+
+// let miles = 147;
+// let guess = prompt('Guess how many miles I am from the nearest asian market');
+
+// for(let i = 0; i < 4; i++){
+//     if(guess === miles){
+//         alert('great guess!');
+//         break;
+//     } else if(guess > miles){
+//         let guess = prompt('guess is too high');
+//         continue;
+//     } else if(guess < miles){
+//         prompt('guess is too low');
+//         continue;
+//     }
+// }
+                
+// for(let i=0; i < 4; i++){
+// if(guess === minutes){
+//     console.log(i);
+// } else if(guess > minutes){
+//     let guess = prompt('Go lower.');
+//     console.log(i);
+//     console.log(guess);
+// } else if(guess < minutes){
+//     let guess = prompt('Go higher.');
+//     console.log(i);
+//     console.log(guess);
+//     }
+// }
+                                
+let faveSubjects = ['math','science','economics','art'];
+let response = prompt('Guess my favorite subject in school').toLowerCase();
+                                
+for(let i = 0; i < 6; i++){
+if(response === faveSubjects[i]){
+    alert('WOW, that\'s a really great guess');
+    console.log(i);
+    break;
+} else {
+    let response = prompt('Try again.');
+    console.log(i);
+    if(response === faveSubjects[i]){
+        alert('Finally!');
+        console.log(i);
+        break;
+    }
+}
+};
+
+//ask question
+// while response != && attempts < 4
+//do this
+//else 
 
 let finalMessage = alert('Thank you ' + visitorName + ' for visiting my site. I hope you learned some fun things about me.');
