@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+.intro {
+    background-color: lightcyan;  
+}
+.credentials {
+    background-color: lightgreen;
+}
+.plans {
+    background-color: lightcyan;
+}
+.activities {
+    background-color: lightyellow;
+}   
