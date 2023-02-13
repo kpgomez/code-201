@@ -1,15 +1,24 @@
+* {
+    margin: 12px;
+}
 h1 {
     text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
 }
 .intro {
-    background-color: lightcyan;  
+    border: double white;  
 }
 .credentials {
-    background-color: lightgreen;
+    border: double white;
 }
 .plans {
-    background-color: lightcyan;
+    border: double white;
 }
 .activities {
     background-color: lightyellow;
+    border: double black;
 }   
+span {
+    text-align: center;
+}
