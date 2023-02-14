@@ -24,12 +24,13 @@ Added
 
 * [submission PR](http://xyz.com)
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+[https://github.com/codefellows/seattle-code-201n30/blob/main/class-05/review/js/app.js](https://github.com/codefellows/seattle-code-201n30/blob/main/class-05/review/js/app.js)
 
 ### Lighthouse Accessibility Report Score
 
 * Provide a screenshot of your score after running a Lighthouse Accessibility report.
 
-![Lighthouse Report Score](./img/Screenshot%202023-02-12%20at%2012.29.49%20AM.png)
+![Lighthouse Report Score](./img/Screenshot%202023-02-14%20at%201.36.29%20AM.png)
 
 ### Reflections and Comments
 
