@@ -12,33 +12,31 @@ if (start === true) {
   alert('😢😪😭');
 };
 
-let score = 0;
-
 function restrictResponse() {
   alert("Please remember to answer as 'yes' or 'no'.");
 }
 
+let score = 0;
+
 //Question #1
 let school = prompt("Did I graduate HS 20 years ago? \nPlease answer 'yes' or 'no'.").toLowerCase();
-console.log(school);
 
 if (school === 'yes' || school === 'y') {
-  alert('Do I really look that old? You are right though as 2023 is the year of my 20 year high school reunion.');
+  alert('Yep, this year is my 20 year high school reunion.');
   score += 1;
 } else if (school === 'no' || school === 'n') {
-  alert('You are too kind, but I am quite old and fragile.');
+  alert('Nope, 2023 is my 20 year HS reunion. I am quite old and quite fragile.');
 } else {
   restrictResponse();
 };
 
 //Question #2 
-let job = prompt('First job was in an office?').toLowerCase();
-console.log(job);
+let food = prompt('Do I hate onions?').toLowerCase();
 
-if (job === 'yes' || job === 'y') {
-  alert('I wish! My first job was in a chicken place. It was the longest 3 weeks of my life!');
-} else if (job === 'no' || job === 'n') {
-  alert('How did you know? My first job was as a cashier selling chicken fingers.');
+if (food === 'yes' || food === 'y') {
+  alert('Nope, I love all kinds of food. Not picky one bit.');
+} else if (food === 'no' || food === 'n') {
+  alert('You are correct. I am not picky, not one bit.');
   score += 1;
 } else {
   restrictResponse();
@@ -46,39 +44,36 @@ if (job === 'yes' || job === 'y') {
 
 //Question #3
 let style = prompt('Do I like to dress up?').toLowerCase();
-console.log(style);
 
 if (style === 'yes' || style === 'y') {
-  alert('I like to dress hobo-ish if that counts.');
+  alert('Nope! I am super laaaaaaazy and often just wear my husband\'s clothes.');
 } else if (style === 'no' || style === 'n') {
-  alert('Woohoo to hoodies and sweats all day every day of the week!');
+  alert('You are correct! Woohoo to hoodies and sweats all day every day of the week!');
   score += 1;
 } else {
   restrictResponse();
 };
 
 //Question #4
-let thrift = prompt('Thrifting is one of my fave activities?').toLowerCase();
-console.log(thrift);
+let thrift = prompt('Thrifting is one of my favorite activities?').toLowerCase();
 
 if (thrift === 'yes' || thrift === 'y') {
-  alert('I love thrifting!! My favorite finds include a real jade bangle, a 1980s vintage designer gown, and a 2005 edition of the World of Warcraft board game.');
+  alert('You are correct! I love bargain shopping especially thrifting. My favorite finds include a real jade bangle and a 2005 edition of the World of Warcraft board game.');
   score += 1;
 } else if (thrift === 'no' || thrift === 'n') {
-  alert('You don\'t know me very well. Thrift stores are amazing, and it is a great way to reduce your carbon footprint.');
+  alert('You are wrong. Thrift stores are amazing, and it is a great way to reduce your carbon footprint.');
 } else {
   restrictResponse();
 };
 
 //Question #5
-let son = prompt('Did I name my son after a video game?').toLowerCase();
-console.log(son);
+let son = prompt('Did I name my son after someone important?').toLowerCase();
 
-if (son === 'yes' || son === 'y') {
-  alert('I totally did! His middle name was inspired by a character from Street Fighter.');
+if (son === 'no' || son === 'n') {
+  alert('You are correct as I named him after a video game.');
   score += 1;
-} else if (son === 'no' || son === 'n') {
-  alert('Oh man, I sure hope he does not resent me later for naming him after a made-up character.');
+} else if (son === 'yes' || son === 'y') {
+  alert('Nope! I named him after a video game.');
 } else {
   restrictResponse();
 };
@@ -99,7 +94,7 @@ while (numberOfGuesses) {
     alert('Go lower');
   }
   else {
-    alert('I told you I was a procrastinator! My coding journey started with SQL back in 2008.');
+    alert('Yep, my coding journey started with SQL back in 2008.');
     score += 1;
     break;
   }
@@ -110,7 +105,7 @@ while (numberOfGuesses) {
 
 //Question #7
 let faveSubjects = ['game theory', 'python', 'stats'];
-let possibleChoices = ['Finance', 'Game theory', 'Javascript', 'Python', 'Stats'];
+let possibleChoices = ['Finance', 'Game theory', 'Javascript', 'Java', 'Python', 'Stats'];
 let numberOfAttempts = 6;
 
 while (numberOfAttempts) {
@@ -119,7 +114,7 @@ while (numberOfAttempts) {
 
   for (let i = 0; i < faveSubjects.length; i++) {
     if (response === faveSubjects[i]) {
-      alert(`Yes! I thoroughly enjoyed ${response} in college. My professor was amaze-balls!`);
+      alert(`Yep! I thoroughly enjoyed ${response} in college. My professor was amaze-balls!`);
       score += 1;
       numberOfAttempts = 0;
       break;
@@ -131,6 +126,4 @@ if (!numberOfAttempts) {
   alert(`My favorite subjects were ${faveSubjects}.`);
 };
 
-alert(`You answered ${score} out of 7 questions correctly.`);
-
-let finalMessage = alert(`Thanks ${visitorName} for hanging out. Enjoy the rest of your day!`);
+alert(`Thanks ${visitorName} for hanging out. You answered ${score} out of 7 questions correctly. Enjoy the rest of your day!`);
