@@ -11,12 +11,16 @@ Changed
 - Shortened variable names
 - Renamed about-me.html to index.html
 - Changed education and experience to bullets
+- Content/subject of some of the questions
 
 Added 
-- Some CSS styling
+- Some CSS styling using Street Fighter color palette as inspiration
 - Question 6 & 7
 - Top Ten List
+- Function restrictResponse()
 
+Deleted
+- all the console.log
 
 ### Author: Kiengchay Gomez (navigator) & Jelani Rhinehart (driver)
 
@@ -30,9 +34,8 @@ Added
 
 * Provide a screenshot of your score after running a Lighthouse Accessibility report.
 
-![Lighthouse Report Score](./img/Screenshot%202023-02-14%20at%201.36.29%20AM.png)
+![Lighthouse Report Score](./img/Screenshot%202023-02-19%20at%2012.20.51%20AM.png)
 
 ### Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+This was fun
